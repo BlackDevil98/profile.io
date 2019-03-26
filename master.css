@@ -1,0 +1,204 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+.header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)),url(pics/first.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.navbar{
+  padding:2rem 3rem;
+}
+.navbar-brand{
+  letter-spacing: 5px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.container{
+  margin-top: 10%;
+  font-family: 'Muli', sans-serif;
+
+}
+.row h1{
+  width: 100%;
+  color:#fff;
+  text-align: center;
+  margin-top: 5%;
+}
+
+@media (max-width : 800px) {
+  .row h1{
+  margin-top : 25%;
+}
+}
+@media (max-width : 500px) {
+  .row h1{
+  margin-top : 50%;
+}
+}
+.txt-type > .txt{
+  border-right: 0.1rem solid #fff;
+  border-radius: 3px;
+}
+
+.btn{
+  margin-top: 3%;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width : 800px) {
+  .btn{
+  margin-left : 44%;
+}
+}
+@media (max-width : 500px) {
+  .btn{
+  margin-left : 41%;
+}
+}
+/*
+.about{
+  margin-bottom: 10%;
+}
+.progress {
+  margin-top: 0.2rem;
+    display: flex;
+    height: .3rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+
+.about p {
+  font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #777;
+}
+
+#prog font{
+  color: #333;
+}
+
+.experirnces{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)), url(pics/secound.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width:500px) {
+  .experirnces{
+    background-image: linear-gradient(rgba(0, 0, 0, 2),rgba(0, 0, 0, 2)), url(pics/secound.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.experirnces h1{
+  color: #fff;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+@media (max-width: 800px)
+.experirnces .row h1 {
+    margin-top: 5%;
+}
+.experirnces h4{
+  font-size: 0.9rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.2);
+  width: fit-content;
+  padding: .9rem;
+  border: 1px solid #5D6D7E;
+  border-radius: .8rem;
+}
+.experirnces font{
+  font-size: 1.2rem;
+  color: #fff;
+  padding: .5rem;
+}
+.experirnces p{
+  color: #999999;
+  padding: .5rem;
+}
+.experirnces .bd{
+  border-bottom: 1px solid rgba(225, 225, 225, .2);
+  border-radius: 2px;
+  padding: 1rem;
+}
+.experirnces .part {
+    padding: 1rem;
+    margin-bottom: 3%;
+}
+
+@media (max-width:500px;) {
+  .experirnces .ex h1{
+    padding: 0px 0px 0px 0px;
+  }
+
+}
+
+
+.services{
+}
+
+.services .container {
+    margin-top: 5%;
+    font-family: 'Muli', sans-serif;
+}
+
+.services .col-sm{
+  padding: 0.8rem 2rem;
+}
+
+@media (max-width:500px) {
+  .services .col-sm{
+    padding: 0.8rem 9%;
+  }
+}
+.services .card{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.7));
+  border-radius: 15px;
+  color:#fff;
+  height: 20rem ;
+  width: 5%;
+}
+
+.services .cardcol{
+  margin-bottom: 3.56rem;
+}
+
+@media (max-width : 500px) {
+
+  .services .cardcol{
+    margin-bottom: 2rem;
+  }
+}
+
+.card-img{
+  width: 100%;
+  margin-bottom: 13%;
+}
+
+.card-img img{
+  margin-left: 30%;
+  height: 5rem;
+  width: 5rem;
+  align:center;
+}
+.services .card h5{
+  text-align: center;
+}
+*/
