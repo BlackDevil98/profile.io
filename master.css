@@ -86,6 +86,14 @@ font-family: 'Muli', sans-serif;
 font-size: 3rem;
 color: #000000;
 }
+.about .img{
+  padding: 2rem;
+}
+
+.about img{
+  height: 3rem;
+  width: 3rem;
+}
 
 .about .pera{
   border-right: 1px solid #000;
