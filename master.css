@@ -73,7 +73,7 @@
 
 .about{
   height: auto;
-  background: #FFDE30;
+  background: rgba(255,222,48,0.8);
 }
 .about .fir{
   padding :2rem;
@@ -102,7 +102,7 @@ color: #000000;
   font-family: 'Muli', sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: normal;
   letter-spacing: 0.005em;
 
@@ -119,7 +119,7 @@ color: #000000;
     font-family: 'Muli', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: normal;
     letter-spacing: 0.005em;
 
@@ -131,7 +131,7 @@ color: #000000;
 .about .anstd{
 font-family: 'Muli', sans-serif;
 font-style: normal;
-font-weight: 300;
+font-weight: 700;
 font-size: 1rem;
 line-height: normal;
 letter-spacing: 0.005em;
