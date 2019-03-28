@@ -89,10 +89,21 @@ color: #000000;
 .about .img{
   padding: 2rem;
 }
+.about .imgd{
+  width: fit-content;
+}
 
 .about img{
   height: 3rem;
   width: 3rem;
+}
+
+@media (max-width:500px) {
+
+  .about img{
+    height: 2rem;
+    width: 2rem;
+  }
 }
 
 .about .pera{
