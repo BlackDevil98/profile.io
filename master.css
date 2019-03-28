@@ -75,17 +75,20 @@
   height: auto;
   background: rgba(255,222,48,0.8);
 }
-.about .fir{
+.fir{
   padding :2rem;
 }
+
 .about .sec{
   padding-top :2rem;
 }
-.about .atitle{
+
+.atitle{
 font-family: 'Muli', sans-serif;
 font-size: 3rem;
 color: #000000;
 }
+
 .about .img{
   padding: 2rem;
 }
@@ -199,7 +202,23 @@ color: #FFFFFF;
   }
 }
 
+.skills{
+  background: #EAE8DC;
+  height: auto;
+}
 
+.skills .pera{
+  color:#959491;
+}
+.skills .coltab{
+  padding-top: 3rem;
+}
+.skills .w-100{
+  padding-top: 2rem;
+}
+.skills .col img{
+  height: 20%;
+}
 /*
 .about{
   margin-bottom: 10%;
