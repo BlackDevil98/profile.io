@@ -210,14 +210,25 @@ color: #FFFFFF;
 .skills .pera{
   color:#959491;
 }
-.skills .coltab{
-  padding-top: 3rem;
-}
 .skills .w-100{
   padding-top: 2rem;
 }
 .skills .col img{
-  height: 20%;
+  height: 25%;
+}
+@media (max-width:500px) {
+  .skills .col img{
+  height: 30%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+  }
+  .skills .skilblc{
+    padding-right: 5rem;
+  }
+}
+.skills .skilblc{
+  padding-right: 5rem;
 }
 /*
 .about{
