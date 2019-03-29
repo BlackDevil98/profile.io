@@ -115,7 +115,7 @@ color: #000000;
   padding-bottom: 2rem;
   font-family: 'Muli', sans-serif;
   font-style: normal;
-  font-weight: 300;
+
   font-size: 1.3rem;
   line-height: normal;
   letter-spacing: 0.005em;
@@ -206,29 +206,19 @@ color: #FFFFFF;
   background: #EAE8DC;
   height: auto;
 }
+.skills .coltab{
+  margin-top: 5%;
+}
 
-.skills .pera{
-  color:#959491;
+.skills .svgp h2{
+  margin-top: 1.5rem;
+  font-family: 'Muli', sans-serif;
+  font-size: 1.8rem;
 }
-.skills .w-100{
-  padding-top: 2rem;
-}
-.skills .col img{
-  height: 25%;
-}
-@media (max-width:500px) {
-  .skills .col img{
-  height: 30%;
-  margin-left: 2%;
-  margin-bottom: 2%;
-}
-  }
-  .skills .skilblc{
-    padding-right: 5rem;
-  }
-}
-.skills .skilblc{
-  padding-right: 5rem;
+
+.skills .svgp p{
+
+  color: #ababab;
 }
 /*
 .about{
