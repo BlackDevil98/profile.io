@@ -79,6 +79,7 @@
 }
 .fir{
   padding-top :2rem;
+  padding-bottom :2rem;
 }
 
 .about .sec{
@@ -249,16 +250,8 @@ color: #FFFFFF;
 
 .education .card{
   border: none;
-  width: 40%;
+  max-width: 80%;
   background: transparent;
-}
-@media (max-width:800) {
-
-  .education .card{
-    border: none;
-    width: 100%;
-    background: transparent;
-  }
 }
 .education .padedu   {
    padding-top: 3%;
@@ -267,10 +260,6 @@ color: #FFFFFF;
       color: #0e3746;
       padding-right: 2%;
 }
-.education .cardtab{
-  padding-top: 3%;
-
-}
 .education .card-title{
   font-weight: bold;
 }
@@ -278,6 +267,8 @@ color: #FFFFFF;
 .education .card-text {
   color: #0e3746;
 }
+
+
 /*
 .about{
   margin-bottom: 10%;
