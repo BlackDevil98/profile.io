@@ -249,9 +249,7 @@ color: #FFFFFF;
 }
 
 .education .card{
-  border: none;
   max-width: 80%;
-  background: transparent;
 }
 .education .padedu   {
    padding-top: 3%;
@@ -268,6 +266,21 @@ color: #FFFFFF;
   color: #0e3746;
 }
 
+.experiences {
+  background: rgba(227,227,227, 0.5);
+  height: 100vh;
+}
+
+.card{
+
+    border: none;
+  background: transparent;
+}
+
+.experience .cardyar{
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 5;
+}
 
 /*
 .about{
